@@ -1,6 +1,6 @@
 '''
 SVDJ Singular value decomposition using Jacobi algorithm.
-Was adapted from matlab Nicolas Le Bihan and Stephen J. Sangwine function
+Was adapted from Nicolas Le Bihan and Stephen J. Sangwine svdj matlab function
 http://freesourcecode.net/matlabprojects/5649/sourcecode/svdj.m#.WyokgfZuKUk
 
 '''
