@@ -1,5 +1,8 @@
 '''
 SVDJ Singular value decomposition using Jacobi algorithm.
+Was adapted from matlab Nicolas Le Bihan and Stephen J. Sangwine function
+http://freesourcecode.net/matlabprojects/5649/sourcecode/svdj.m#.WyokgfZuKUk
+
 '''
 
 import numpy as np
