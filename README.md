@@ -1,5 +1,7 @@
 # SVDJ
 Singular value decomposition using Jacobi algorithm for python
+Was adapted from matlab Nicolas Le Bihan and Stephen J. Sangwine function
+http://freesourcecode.net/matlabprojects/5649/sourcecode/svdj.m#.WyokgfZuKUk
 
 # Usage:
 from svdj import svdj
@@ -12,11 +14,11 @@ Result U matrix of SVDJ don't match standart numpy SVD result U matrix while S a
 # Example :
 A =  
 
--2125.+1467.j   964.-7903.j
+[-2125.+1467.j   964.-7903.j
 
  2818.-2029.j -9697.-6936.j
 
- 1956.-7418.j   703.  -49.j 
+ 1956.-7418.j   703.  -49.j ]
 
 Usvdj =
 
