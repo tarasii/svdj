@@ -14,6 +14,22 @@ u, s, v = svdj(a)
 # Feature
 Result U matrix of SVDJ don't match standart numpy SVD result U matrix while S and V are close
 
+# Implementation
+Matlab:        python:
+
+ ```A*B``` => ```np.dot(a, b)``` for matrix multiplication np.dpt instead * 
+ 
+ ```A'```  => ```a.conj().T``` for complex numbers A' consists not only A.T but also complex elements rotation
+ 
+ ```A*A'```=> ```np.dot(a, a.conj().T)```
+ 
+To get back A fom U, S, V on python:
+```
+u, s, v = svdj(a)
+a = np.dot(u * s, v.conj().T)
+```
+S product of SVD have to be diagonal matrix, but algorithm returns simple vector s acording to standart ```numpy.linalg.svd()``` function, to get classical S product diagonal matrix have to ```np.diag(s)```
+
 # Example :
 ```
 A =  
