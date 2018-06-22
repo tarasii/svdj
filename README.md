@@ -17,7 +17,7 @@ Result U matrix of SVDJ don't match standart numpy SVD result U matrix while S a
 # Implementation
 Matlab:        python:
 
- ```A*B``` => ```np.dot(a, b)``` for matrix multiplication np.dpt instead * 
+ ```A*B``` => ```np.dot(a, b)``` for matrix multiplication np.dot instead * 
  
  ```A'```  => ```a.conj().T``` for complex numbers A' consists not only A.T but also complex elements rotation
  
