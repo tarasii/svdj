@@ -1,4 +1,4 @@
-# SVDJ
+# SVD Jacobi - SVDJ
 Singular value decomposition using Jacobi algorithm for python.
 
 Was adapted from matlab Nicolas Le Bihan and Stephen J. Sangwine function
