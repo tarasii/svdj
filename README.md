@@ -54,3 +54,9 @@ V =
 -0.18063428-0.13443222j  0.97431988+0.j        
  0.97431988+0.j          0.18063428-0.13443222j
 ```
+
+# links :
+https://github.com/ericgineer/SVD/blob/master/svd_jacobi.m - Matlab SVDJ
+https://github.com/ericgineer/SVD/blob/master/svdsolve.m - Matlab notebook SVD
+https://github.com/lixueclaire/Parallel-SVD/blob/master/CPU_SVD.cpp - cpp SVDJ
+
