@@ -55,10 +55,14 @@ V =
  0.97431988+0.j          0.18063428-0.13443222j
 ```
 
-# Links :
+# See also :
 https://github.com/ericgineer/SVD/blob/master/svd_jacobi.m - Matlab SVDJ
 
 https://github.com/ericgineer/SVD/blob/master/svdsolve.m - Matlab notebook SVD
 
 https://github.com/lixueclaire/Parallel-SVD/blob/master/CPU_SVD.cpp - cpp SVDJ
+
+Hestenes method for computing the SVD.
+
+The direct extension of the Jacobi method for the SVD - Kogbetliantz method or the Double-Sided Jacobi SVD method.
 
